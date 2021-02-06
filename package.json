@@ -1,0 +1,25 @@
+{
+  "name": "auto-update-test",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.2",
+    "electron-builder": "^22.9.1",
+    "ipc": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gyuni1337/sarcrp-launcher.git"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}

@@ -1,0 +1,4 @@
+appId: sarc.rp.launcher
+publish:
+  provider: github
+  token: 81fc15c0c30fc1095b9f5958831e2d8edd68afb0
